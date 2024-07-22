@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon start",
-    "build": "echo 'No build step required'"
+    "dev": "nodemon start"
   },
   "author": "",
   "license": "ISC",
