@@ -8,7 +8,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/chicken", (req, res) => {
-  res.send(`<h1>Hello Sir, I am serving chicken</h1>`);
+  // res.send(`<h1>Hello Sir, I am serving chicken</h1>`);
+  res.redirect(`https://www.google.com`);
 });
 
 app.get("/idli", (req, res) => {
